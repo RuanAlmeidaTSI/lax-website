@@ -1,26 +1,82 @@
 @import "tailwindcss";
+  :root {
+  /* Blossom */
+  --blossom-50:  #FFF8FC;
+  --blossom-100: #FFF1F8;
+  --blossom-200: #FFE4F1;
+  --blossom-300: #FFD6EB;
+  --blossom-400: #FFD0E8;
+  --blossom-500: #FFCCE6;
+  --blossom-600: #F4A9D0;
+  --blossom-700: #E37CB3;
+  --blossom-800: #C85790;
+  --blossom-900: #A43A6F;
+  --blossom-950: #672044;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Slate */
+  --slate-50:  #F6F6F7;
+  --slate-100: #E8E9EB;
+  --slate-200: #D0D3D8;
+  --slate-300: #AEB3BC;
+  --slate-400: #7E858F;
+  --slate-500: #555C66;
+  --slate-600: #3E434B;
+  --slate-700: #2F3339;
+  --slate-800: #26292D;
+  --slate-900: #1E1F22;
+  --slate-950: #111214;
+
+  /* Amethyst */
+  --amethyst-50:  #F8F4FB;
+  --amethyst-100: #F0E7F7;
+  --amethyst-200: #E1D0EF;
+  --amethyst-300: #CFB0E5;
+  --amethyst-400: #B988D5;
+  --amethyst-500: #9B59B6;
+  --amethyst-600: #864AA4;
+  --amethyst-700: #703C8B;
+  --amethyst-800: #5B3170;
+  --amethyst-900: #482657;
+  --amethyst-950: #2A1434;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Blossom */
+  --color-blossom-50: var(--blossom-50);
+  --color-blossom-100: var(--blossom-100);
+  --color-blossom-200: var(--blossom-200);
+  --color-blossom-300: var(--blossom-300);
+  --color-blossom-400: var(--blossom-400);
+  --color-blossom-500: var(--blossom-500);
+  --color-blossom-600: var(--blossom-600);
+  --color-blossom-700: var(--blossom-700);
+  --color-blossom-800: var(--blossom-800);
+  --color-blossom-900: var(--blossom-900);
+  --color-blossom-950: var(--blossom-950);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  /* Slate */
+  --color-slate-50: var(--slate-50);
+  --color-slate-100: var(--slate-100);
+  --color-slate-200: var(--slate-200);
+  --color-slate-300: var(--slate-300);
+  --color-slate-400: var(--slate-400);
+  --color-slate-500: var(--slate-500);
+  --color-slate-600: var(--slate-600);
+  --color-slate-700: var(--slate-700);
+  --color-slate-800: var(--slate-800);
+  --color-slate-900: var(--slate-900);
+  --color-slate-950: var(--slate-950);
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* Amethyst */
+  --color-amethyst-50: var(--amethyst-50);
+  --color-amethyst-100: var(--amethyst-100);
+  --color-amethyst-200: var(--amethyst-200);
+  --color-amethyst-300: var(--amethyst-300);
+  --color-amethyst-400: var(--amethyst-400);
+  --color-amethyst-500: var(--amethyst-500);
+  --color-amethyst-600: var(--amethyst-600);
+  --color-amethyst-700: var(--amethyst-700);
+  --color-amethyst-800: var(--amethyst-800);
+  --color-amethyst-900: var(--amethyst-900);
+  --color-amethyst-950: var(--amethyst-950);
 }
