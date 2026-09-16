@@ -4,6 +4,9 @@ export default function Home() {
             <h1 className="mb-8 text-4xl font-bold">
                 Tailwind Theme Preview
             </h1>
+            <h1 className="mb-8 text-4xl font-bold">
+                This is a commit test
+            </h1>
 
             <div className="grid gap-6 md:grid-cols-3">
                 {/* Primary */}
